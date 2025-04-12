@@ -1,8 +1,10 @@
-let edad = 25;
+let edad = 10;
 
 if (edad > 17) {
-    console.log("usuario mayor de edad");
+    console.log("Usuario mayor de edad");
 }
-else if (edad <= 18) {
-    console.log("usuario menor de edad");
+else if (edad > 13) {
+    console.log("Usuario necesita estar acompañado de sus padres");
+} else {
+    console.log("no puede ingresar a la sala");
 }
